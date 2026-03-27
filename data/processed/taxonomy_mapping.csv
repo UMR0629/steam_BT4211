@@ -1,0 +1,120 @@
+tag,dimension,bucket,keep_distinct,merge_target,notes
+Singleplayer,Mode & Social Structure,Solo,0,Solo,Generic support tag; keep as coarse mode metadata.
+Multiplayer,Mode & Social Structure,Competitive Multiplayer,0,Competitive Multiplayer,Generic support tag; keep as coarse social metadata.
+Co-op,Mode & Social Structure,Online Cooperative,1,Online Cooperative,Important cooperative market signal.
+Online Co-Op,Mode & Social Structure,Online Cooperative,0,Online Cooperative,Subtype of online cooperation.
+Local Co-Op,Mode & Social Structure,Local Social,0,Local Social,Local session social play.
+Local Multiplayer,Mode & Social Structure,Local Social,0,Local Social,Local session social play.
+PvP,Mode & Social Structure,Competitive Multiplayer,1,Competitive Multiplayer,Distinct competitive positioning signal.
+PvE,Mode & Social Structure,Online Cooperative,0,Online Cooperative,Cooperative or social non-competitive loop.
+Massively Multiplayer,Mode & Social Structure,Competitive Multiplayer,1,Massively Multiplayer,Large-scale persistent multiplayer identity.
+Free to Play,Mode & Social Structure,Access / Ongoing Service,1,Free to Play,Commercial model signal and useful market stratifier.
+Early Access,Mode & Social Structure,Access / Ongoing Service,1,Early Access,Lifecycle and access-state signal.
+
+Action,Core Gameplay,Generic Action,0,Generic Action,Too broad for fine positioning; use as support metadata.
+Adventure,Core Gameplay,Generic Adventure,0,Generic Adventure,Too broad for fine positioning; use as support metadata.
+Indie,Commercial / Production,Indie Production,0,Indie Production,Production identity rather than gameplay.
+Casual,Tone & Emotional Experience,Comfort & Low Stress,0,Comfort & Low Stress,Broad audience-facing accessibility cue.
+RPG,Core Gameplay,Generic RPG Systems,0,Generic RPG Systems,Too broad; use as support metadata.
+Strategy,Core Gameplay,Strategy & Tactics,0,Strategy & Tactics,Broad parent tag for strategic play.
+Simulation,Core Gameplay,Building & Simulation Systems,0,Building & Simulation Systems,Broad parent tag for simulation-style systems.
+Atmospheric,Tone & Emotional Experience,Immersive & Moody,1,Immersive & Moody,Strong experiential positioning cue.
+Story Rich,Tone & Emotional Experience,Narrative Prestige,1,Narrative Prestige,High-value narrative promise.
+2D,Presentation & Camera,2D Visual Identity,0,2D Visual Identity,Presentation-level descriptor.
+3D,Presentation & Camera,3D Visual Identity,0,3D Visual Identity,Presentation-level descriptor.
+First-Person,Presentation & Camera,Camera Perspective,1,First-Person,Important spatial framing signal.
+Third Person,Presentation & Camera,Camera Perspective,0,Third Person,Spatial framing signal.
+Top-Down,Presentation & Camera,Camera Perspective,0,Top-Down,Spatial framing signal.
+Isometric,Presentation & Camera,Camera Perspective,0,Isometric,Spatial framing signal.
+Open World,Structure & Progression,Open / Exploratory Structure,1,Open World,Highly informative world-structure signal.
+Exploration,Structure & Progression,Open / Exploratory Structure,0,Exploration,Broad discovery-oriented structure cue.
+Fantasy,Theme & Setting,Fantasy,0,Fantasy,Theme-level descriptor.
+Dark Fantasy,Theme & Setting,Fantasy,1,Dark Fantasy,Subtheme worth preserving.
+Magic,Theme & Setting,Fantasy,0,Fantasy,Fantasy theme support signal.
+Medieval,Theme & Setting,Fantasy,0,Fantasy,Setting support signal often attached to fantasy worlds.
+Shooter,Core Gameplay,Combat Action,0,Combat Action,Broad combat-action parent tag.
+FPS,Core Gameplay,Combat Action,1,FPS,Distinct and market-important subgenre.
+Third-Person Shooter,Core Gameplay,Combat Action,1,Third-Person Shooter,Distinct and market-important subgenre.
+Hack and Slash,Core Gameplay,Combat Action,0,Combat Action,Combat loop variant.
+Combat,Core Gameplay,Combat Action,0,Combat Action,Broad low-specificity combat signal.
+Stealth,Core Gameplay,Combat Action,1,Stealth,Gameplay identity worth keeping distinct.
+Anime,Presentation & Camera,Art Style / Cultural Coding,1,Anime,Strong aesthetic-market signal.
+Puzzle,Core Gameplay,Puzzle & Logic,1,Puzzle & Logic,Strong gameplay identity.
+Great Soundtrack,Tone & Emotional Experience,Narrative Prestige,0,Narrative Prestige,Quality/experience enhancer rather than standalone market.
+Sci-fi,Theme & Setting,Science Fiction,0,Science Fiction,Broad science fiction theme.
+Space,Theme & Setting,Science Fiction,0,Science Fiction,Science fiction subsetting; merge for compact taxonomy.
+Futuristic,Theme & Setting,Science Fiction,0,Science Fiction,Science fiction subsetting; merge for compact taxonomy.
+Funny,Tone & Emotional Experience,Light & Playful,0,Light & Playful,Good candidate to merge with comedy.
+Comedy,Tone & Emotional Experience,Light & Playful,0,Light & Playful,Good candidate to merge with funny.
+Cute,Tone & Emotional Experience,Light & Playful,0,Light & Playful,Softens market tone more than gameplay.
+Colorful,Tone & Emotional Experience,Light & Playful,0,Light & Playful,Visual tone and mood signal.
+Cartoony,Tone & Emotional Experience,Light & Playful,0,Light & Playful,Presentation and tone signal.
+Horror,Theme & Setting,Horror & Threat,0,Horror & Threat,Broad horror family tag.
+Psychological Horror,Theme & Setting,Horror & Threat,1,Psychological Horror,Important subfamily worth preserving.
+Survival Horror,Theme & Setting,Horror & Threat,1,Survival Horror,Important subfamily worth preserving.
+Zombies,Theme & Setting,Horror & Threat,0,Horror & Threat,Specific horror threat theme.
+Post-apocalyptic,Theme & Setting,Horror & Threat,0,Horror & Threat,Often paired with survival/horror market coding.
+Free to Play,Commercial / Access,Free to Play,1,Free to Play,Commercial model signal.
+Female Protagonist,Tone & Emotional Experience,Romantic / Character Drama,0,Character-Led Narrative,Character framing signal; review later manually.
+Pixel Graphics,Presentation & Camera,2D Visual Identity,1,Pixel Graphics,Distinct aesthetic identity in Steam positioning.
+Sandbox,Core Gameplay,Building & Simulation Systems,1,Sandbox,Strong systemic play signal.
+Survival,Tone & Emotional Experience,Challenge & Intensity,0,Challenge & Intensity,Can also behave like gameplay; worth later review.
+Realistic,Presentation & Camera,3D Visual Identity,0,Realistic,Presentation tone rather than mechanics.
+Character Customization,Core Gameplay,RPG Systems,0,RPG Systems,System-depth support signal.
+Action-Adventure,Core Gameplay,Generic Action,0,Generic Action,Broad hybrid parent tag.
+Arcade,Core Gameplay,Arcade & Reflex,1,Arcade & Reflex,Useful pacing/mechanics identity.
+Difficult,Tone & Emotional Experience,Challenge & Intensity,1,Challenge & Intensity,Strong audience-positioning signal.
+Controller,Presentation & Camera,Interface / Input,0,Interface / Input,Input support rather than core position.
+Violent,Theme & Setting,Mature / Sexual,0,Mature / Sexual,Content-rating style signal.
+Gore,Theme & Setting,Mature / Sexual,0,Mature / Sexual,Content-rating style signal.
+Tactical,Core Gameplay,Strategy & Tactics,1,Strategy & Tactics,Important decision-oriented play signal.
+Retro,Presentation & Camera,2D Visual Identity,0,2D Visual Identity,Aesthetic lineage signal.
+Family Friendly,Tone & Emotional Experience,Comfort & Low Stress,0,Comfort & Low Stress,Broad accessibility/tone signal.
+Action RPG,Core Gameplay,RPG Systems,1,Action RPG,Market-important subgenre.
+Visual Novel,Core Gameplay,Narrative Play,1,Visual Novel,Distinct content/gameplay identity.
+Choices Matter,Core Gameplay,Narrative Play,1,Choices Matter,Strong narrative agency signal.
+Multiple Endings,Core Gameplay,Narrative Play,0,Narrative Play,Narrative replay/branching support tag.
+Mystery,Tone & Emotional Experience,Immersive & Moody,0,Immersive & Moody,Mood/theme hybrid; grouped to keep taxonomy compact.
+Relaxing,Tone & Emotional Experience,Comfort & Low Stress,1,Comfort & Low Stress,Important experiential promise.
+Management,Core Gameplay,Strategy & Tactics,1,Management,Distinct systemic identity.
+Building,Core Gameplay,Building & Simulation Systems,0,Building & Simulation Systems,Merge with base-building if compacting.
+Turn-Based Strategy,Core Gameplay,Strategy & Tactics,1,Turn-Based Strategy,Strong tactical subgenre identity.
+Sexual Content,Theme & Setting,Mature / Sexual,0,Mature / Sexual,Content-rating style signal.
+War,Theme & Setting,War & Military,0,War & Military,Theme family signal.
+Military,Theme & Setting,War & Military,0,War & Military,Theme family signal.
+Historical,Theme & Setting,War & Military,0,War & Military,Contextual setting signal for compact taxonomy.
+JRPG,Core Gameplay,RPG Systems,1,JRPG,Strong regional RPG market identity.
+Turn-Based Combat,Core Gameplay,Strategy & Tactics,1,Turn-Based Combat,Distinct tactical combat loop.
+Physics,Core Gameplay,Puzzle & Logic,0,Puzzle & Logic,Often puzzle-system support signal.
+Point & Click,Core Gameplay,Puzzle & Logic,1,Point & Click,Distinct adventure interaction model.
+Turn-Based,Core Gameplay,Strategy & Tactics,0,Strategy & Tactics,Parent turn-based logic cue.
+VR,Presentation & Camera,Interface / Input,1,VR,Strong hardware/platform segmentation signal.
+Stylized,Presentation & Camera,3D Visual Identity,0,3D Visual Identity,Presentation-level cue.
+Classic,Presentation & Camera,2D Visual Identity,0,2D Visual Identity,Heritage/retro framing signal.
+Crafting,Core Gameplay,Building & Simulation Systems,1,Crafting,Strong systems-loop identity.
+Sports,Core Gameplay,Arcade & Reflex,1,Sports,Distinct market category.
+Base-Building,Core Gameplay,Building & Simulation Systems,0,Building & Simulation Systems,Merge with building unless high granularity needed.
+Resource Management,Core Gameplay,Strategy & Tactics,0,Strategy & Tactics,Supportive strategic systems cue.
+Turn-Based Tactics,Core Gameplay,Strategy & Tactics,1,Turn-Based Tactics,Strong tactical subgenre identity.
+RTS,Core Gameplay,Strategy & Tactics,1,RTS,Strong real-time strategy identity.
+Rogue-like,Core Gameplay,Roguelite Loop,1,Rogue-like,Keep distinct if you care about precision.
+Rogue-lite,Core Gameplay,Roguelite Loop,1,Rogue-lite,Keep distinct if you care about precision.
+Procedural Generation,Core Gameplay,Roguelite Loop,0,Roguelite Loop,Loop-structure support signal.
+Replay Value,Structure & Progression,Session Replayability,0,Session Replayability,Replayability support signal.
+Platformer,Core Gameplay,Platforming & Traversal,1,Platforming & Traversal,Clear mechanical identity.
+2D Platformer,Core Gameplay,Platforming & Traversal,0,Platforming & Traversal,Subtype merge for compact taxonomy.
+Linear,Structure & Progression,Linear / Authored Structure,0,Linear / Authored Structure,Structure signal.
+Moddable,Structure & Progression,Systemic / Moddable Structure,1,Systemic / Moddable Structure,Important ecosystem signal.
+Immersive Sim,Structure & Progression,Systemic / Moddable Structure,1,Immersive Sim,Distinct design identity.
+Romance,Tone & Emotional Experience,Romantic / Character Drama,1,Romantic / Character Drama,Important emotional promise for some submarkets.
+Drama,Tone & Emotional Experience,Immersive & Moody,0,Immersive & Moody,Story tone cue.
+Emotional,Tone & Emotional Experience,Immersive & Moody,0,Immersive & Moody,Story tone cue.
+Interactive Fiction,Core Gameplay,Narrative Play,1,Interactive Fiction,Distinct narrative interaction model.
+Choose Your Own Adventure,Core Gameplay,Narrative Play,0,Narrative Play,Branching narrative support tag.
+Dungeon Crawler,Core Gameplay,RPG Systems,1,Dungeon Crawler,Distinct exploration/combat RPG identity.
+Hand-drawn,Presentation & Camera,2D Visual Identity,1,Hand-drawn,Distinct art identity.
+1990's,Presentation & Camera,2D Visual Identity,0,2D Visual Identity,Nostalgia-era style cue.
+Old School,Presentation & Camera,2D Visual Identity,0,2D Visual Identity,Nostalgia-style cue.
+Racing,Core Gameplay,Arcade & Reflex,1,Racing,Distinct market category.
+Mature,Theme & Setting,Mature / Sexual,0,Mature / Sexual,Audience/content framing tag.
+Economy,Core Gameplay,Building & Simulation Systems,0,Building & Simulation Systems,Systemic economy focus.
