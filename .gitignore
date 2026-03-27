@@ -5,12 +5,14 @@ __pycache__/
 data/raw/*
 !data/raw/sample_100.csv
 !data/raw/sample_100.json
+!data/raw/sample_5000.csv
+!data/raw/sample_5000.json
 
 data/processed/*
 !data/processed/taxonomy_mapping.csv
 !data/processed/taxonomy_draft.md
 
-data/figures/*
 
 data/colab_processed_bundle.zip
 data/colab_figures_bundle.zip
+
